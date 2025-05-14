@@ -1,0 +1,43 @@
+body {
+    background-image: url('/img/Fondo2.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Fondo personalizado para la navbar */
+.bg-custom {
+    background-color: #2E8B57; /* Color verde suave */
+}
+
+/* Cambiar el color de los enlaces cuando pasas el mouse por encima */
+.nav-link:hover {
+    color: #FFD700; /* Color dorado */
+    text-decoration: underline; /* Subrayado */
+}
+
+/* Cambiar el color de los enlaces activos */
+.nav-link.active {
+    color: #FFD700; /* Color dorado */
+}
+
+/* Personalizar el texto del logo */
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Agregar sombra a la navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto de transición suave para los enlaces */
+.nav-link {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Redondear los bordes de la navbar */
+.navbar {
+    border-radius: 10px;
+}
